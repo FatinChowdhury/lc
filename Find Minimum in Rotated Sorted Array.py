@@ -4,7 +4,6 @@ class Solution:
         while l<r:
             k = (l+r)//2
             if nums[k] > nums[r]:
-                # [2,4,64,493,439,22,25,6]
                 l=k+1
             elif nums[k] < nums[r]:
                 r=k
